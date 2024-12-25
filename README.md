@@ -7,22 +7,33 @@ We create it for learn about how fetch and response data from API
 #### GOOGLE_API_KEY
 
 ```bash
-AIzaSyCBw8CFbUNreTcCNGq4eTJRDrnymJIXhTU
+Example : AIzaSyCBw8CFbUNreTcCNGq4eTJRDrnymJIXhTU
+```
+
+## How to get GOOGLE_API_KEY
+
+- Go to the [Google Cloud Console]("https://console.cloud.google.com/").
+- Create a new project or select an existing one.
+- Enable the Places API from the API Library.
+- Create an API key from the Credentials section.
+- Restrict your API key to prevent misuse.
+
+#
+
+#### Change [YOUR_API_KEY]() to your API KEY that you suggest
+
+```JavaScript
+const API_KEY = "YOUR_API_KEY";
 ```
 
 #### API_REQUEST_URL
 
-```bash
-https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${GOOGLE_API_KEY}
+```JavaScript
+// Example :
+const API_REQUEST_URL = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants&key=${API_KEY}`;
+
 ```
 
-How to donwload ?
+#### Contect ME :
 
-- Go to [tochratana](https://tochratana.netlify.app)
-- And choose JavaScript Documentation
-- On the left side click Exercise Practice
-- Select 4 (Gemini chatbot)
-- Link download :
-  ```bash
-  https://tochratana.netlify.app/
-  ```
+- [Toch Ratana]("https://tochratana.netlify.app")

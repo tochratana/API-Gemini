@@ -10,7 +10,8 @@ let currentUserMessage = null;
 let isGeneratingResponse = false;
 
 // API REQUES URL
-const API_REQUEST_URL = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants&key=YOUR_API_KEY`;
+const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
+const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GOOGLE_API_KEY}`;
 
 // Load saved data from local storage
 const loadSavedChatHistory = () => {
