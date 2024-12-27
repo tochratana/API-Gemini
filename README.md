@@ -4,13 +4,7 @@
 
 We create it for learn about how fetch and response data from API
 
-#### GOOGLE_API_KEY
-
-```bash
-Example : AIzaSyCBw8CFbUNreTcCNGq4eTJRDrnymJIXhTU
-```
-
-## How to get GOOGLE_API_KEY
+## How to get google api Key
 
 - Go to the [Google Cloud Console]("https://console.cloud.google.com/").
 - Create a new project or select an existing one.
